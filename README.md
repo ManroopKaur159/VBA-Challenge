@@ -34,7 +34,7 @@ The MultipleQuarterStockData subroutine performs the following tasks for each wo
 Initializing and Creating Column Headers:
 
 Creates headers in columns I to L for "Ticker," "Quarterly Change," "Percent Change," and "Total Stock Volume."
-Creates headers in columns P to R for identifying the tickers with the greatest percentage increase, greatest percentage decrease, and greatest total stock volume.
+Creates headers in columns O to Q for identifying the tickers with the greatest percentage increase, greatest percentage decrease, and greatest total stock volume.
 
 After that we Iterate through Rows:
 
@@ -43,7 +43,7 @@ After that it calculates quarterly changes, percent changes, and total stock vol
 
 Then we apply conditional formatting to highlight positive and negative changes.
 Identifying the Greatest Values: Determining the tickers with the greatest percentage increase, greatest percentage decrease, and greatest total stock volume.
-After that write these values and their corresponding tickers to the designated cells in in columns P to R.
+After that write these values and their corresponding tickers to the designated cells in in columns O to Q.
 
 Auto-fit Columns:
 Adjusts column widths to fit the content.
